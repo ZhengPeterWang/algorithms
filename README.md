@@ -46,5 +46,4 @@ In a graph where each edge is weighed by l(e) non negative, find a path from s t
 
 Starting from s. Add all nodes already explored to a set S. For each node j with at least an edge connecting to S, refresh its distance to s using
 
-![equation](<"http://www.sciweavers.org/tex2img.php?eq=d%28v%29%20%3D%20min_%7Be%20%3D%20%28u%2C%20v%29%3A%20u%20%5Cin%20S%7Dd%28u%29%20%2B%20l_e&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="d(v) = min_{e = (u, v): u \in S}d(u) + l_e" width="246" height="21" />)
-
+![d'[v] = min_{e = (u, v): u \in S} d(u) + l_{e}](https://latex.codecogs.com/gif.latex?d%28v%29%20%3D%20min_%7Be%20%3D%20%28u%2C%20v%29%3A%20u%20%5Cin%20S%7Dd%28u%29%20&plus;%20l_e)
